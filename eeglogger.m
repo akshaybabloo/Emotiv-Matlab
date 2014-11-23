@@ -81,7 +81,7 @@ elseif optargin == 1
 end
 % Check to see if library was already loaded
 if ~libisloaded('edk')    
-    [nf, w] = loadlibrary('edk','edk');
+    [nf, w] = loadlibrary('edk','edk',  'addheader', 'EmoStateDLL', 'addheader', 'edkErrorCode'); 
 	disp(['EDK library loaded']);
     if( lib_flag_popup )
         libfunctionsview('edk')
@@ -93,7 +93,7 @@ else
 end
 sampFreq = 128;
 default = int8(['Emotiv Systems-5' 0]);
-AllOK = calllib('edk','EE_EngineConnect',default); % success means this value is 0
+AllOK = calllib('edk','EE_EngineConnect','Emotiv Systems-5'); % success means this value is 0
 
 hData = calllib('edk','EE_DataCreate');
 calllib('edk','EE_DataSetBufferSizeInSec',rectime);
