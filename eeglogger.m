@@ -81,7 +81,7 @@ elseif optargin == 1
 end
 % Check to see if library was already loaded
 if ~libisloaded('edk')    
-    [nf, w] = loadlibrary('edk','edk',  'addheader', 'EmoStateDLL', 'addheader', 'edkErrorCode'); 
+    [nf, w] = loadlibrary('edk','edk','EmoStateDLL','edkErrorCode'); 
 	disp(['EDK library loaded']);
     if( lib_flag_popup )
         libfunctionsview('edk')
