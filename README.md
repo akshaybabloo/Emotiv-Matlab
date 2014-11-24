@@ -82,7 +82,7 @@ Done . . .
 ```
 * This means you have successfully installed the compiler for Matlab.
 * (OR)
-* If you select `1`, **Note: This is only applicable for Windows** you will get
+* If you select `1`, **Note: This is only applicable for Windows**, and you will get
 ```
 Please verify your choices: 
  
@@ -108,4 +108,8 @@ Done . . .
 ************************************************************************** 
 ```
 * This means you have installed the compiler for Matlab.
+
+
+Using `.m` files
+================
 
