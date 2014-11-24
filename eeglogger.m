@@ -173,7 +173,7 @@ if plot_popup
     zlabel('Y coord')
 end
 
-% unloadlibrary('edk'); % unload the library after having turned off 
+unloadlibrary('edk'); % unload the library after having turned off 
 % [int32, uint32Ptr] EE_DataGetSamplingRate (uint32, uint32Ptr)
 % int32 EE_DataSetSychronizationSignal (uint32, int32)
 % [int32, string] EE_EnableDiagnostics (cstring, int32, int32)
