@@ -83,5 +83,31 @@ Done . . .
 ************************************************************************** 
 ```
 * This means you have successfully installed the compiler for Matlab.
-
+* (OR)
+* If you select `1`, **Note: This is only applicable for Windows** you will get
+```
+Please verify your choices: 
+ 
+Compiler: Lcc-win32 C 2.4.1 
+Location: C:\PROGRA~2\MATLAB\R2013A~1\sys\lcc 
+ 
+Are these correct [y]/n? 
+```
+* Enter `y` then you will get
+```
+Trying to update options file: C:\Users\gollahalli\AppData\Roaming\MathWorks\MATLAB\R2013a\mexopts.bat 
+From template:              C:\PROGRA~2\MATLAB\R2013A~1\bin\win32\mexopts\lccopts.bat 
+ 
+Done . . . 
+ 
+************************************************************************** 
+  Warning: The MATLAB C and Fortran API has changed to support MATLAB 
+           variables with more than 2^32-1 elements.  In the near future 
+           you will be required to update your code to utilize the new 
+           API. You can find more information about this at: 
+           http://www.mathworks.com/help/matlab/matlab_external/upgrading-mex-files-to-use-64-bit-api.html  
+           Building with the -largeArrayDims option enables the new API. 
+************************************************************************** 
+```
+* This means you have installed the compiler for Matlab.
 
