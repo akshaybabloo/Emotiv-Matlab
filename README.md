@@ -3,7 +3,9 @@ EmoMat
 
 Emotiv connector for Matlab
 
-Copyright @ May 2010 The Johns Hopkins University Applied Physics Laboratory (JHU/APL).
+eeglogger.m -> Copyright (c) May 2010 The Johns Hopkins University Applied Physics Laboratory (JHU/APL).
+
+EmotivEEG.m -> Copyright (c) 2012, Gavin
 
 You would need the following files to run these files:
 
