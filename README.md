@@ -20,7 +20,7 @@ All these are available with Emotiv SDK.
 Go to [Emotiv](http://www.emotiv.com) website for more information.
 
 
-Installing `mex` compiler?
+Installing `mex` compiler
 ==========================
 
 * Open Matlab (this has been tested on R2013a).
@@ -149,5 +149,5 @@ ans =
 http://gollahalli.com/EmoMat/eeglogger.png
 
 
-**Emotiv EEG (Other Ways/EmotivEEG.m)** (I prefer using this)
+**Emotiv EEG (Other Ways/EmotivEEG.m)** <= I prefer using this
 
