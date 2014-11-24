@@ -48,4 +48,40 @@ Select a compiler:
  
 Compiler: 
 ```
-* Enter the number of the compiler which you want to install and then press enter.
+* Enter the number of the compiler which you want to install and then press enter, eg: `2`; then you will get the following
+```
+Please verify your choices: 
+ 
+Compiler: Microsoft Visual C++ 2010  
+Location: c:\Program Files (x86)\Microsoft Visual Studio 10.0 
+ 
+Are these correct [y]/n? 
+```
+* enter `y` and press enter. Then you will get the following
+```
+*************************************************************************** 
+  Warning: MEX-files generated using Microsoft Visual C++ 2010 require 
+           that Microsoft Visual Studio 2010 run-time libraries be  
+           available on the computer they are run on. 
+           If you plan to redistribute your MEX-files to other MATLAB 
+           users, be sure that they have the run-time libraries. 
+*************************************************************************** 
+ 
+ 
+Trying to update options file: C:\Users\gollahalli\AppData\Roaming\MathWorks\MATLAB\R2013a\mexopts.bat 
+From template:              C:\PROGRA~2\MATLAB\R2013A~1\bin\win32\mexopts\msvc100opts.bat 
+ 
+Done . . . 
+ 
+************************************************************************** 
+  Warning: The MATLAB C and Fortran API has changed to support MATLAB 
+           variables with more than 2^32-1 elements.  In the near future 
+           you will be required to update your code to utilize the new 
+           API. You can find more information about this at: 
+           http://www.mathworks.com/help/matlab/matlab_external/upgrading-mex-files-to-use-64-bit-api.html  
+           Building with the -largeArrayDims option enables the new API. 
+************************************************************************** 
+```
+* This means you have successfully installed the compiler for Matlab.
+
+
