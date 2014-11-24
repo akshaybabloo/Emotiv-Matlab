@@ -27,13 +27,15 @@ How to use?
 2. Add the folder and all the DLL and .h files to the path.
 3. Use mex to install c/c++ compiler by doing the following
   * `mex -setup` (Please make sure the required compilers are installed eg: Visual Studio 2010 pro for Matlab R2013a or Microsoft Windows SDK 7.1)
-  * ```Welcome to mex -setup.  This utility will help you set up  
+  * ```
+Welcome to mex -setup.  This utility will help you set up  
 a default compiler.  For a list of supported compilers, see  
 http://www.mathworks.com/support/compilers/R2013a/win32.html 
  
 Please choose your compiler for building MEX-files: 
  
-Would you like mex to locate installed compilers [y]/n?```
+Would you like mex to locate installed compilers [y]/n?
+```
   * Enter 'y' and press enter
   * Then you should get the following ```Select a compiler: 
 [1] Lcc-win32 C 2.4.1 in C:\PROGRA~2\MATLAB\R2013A~1\sys\lcc 
