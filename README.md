@@ -113,3 +113,38 @@ Done . . .
 Using `.m` files
 ================
 
+**EEG Logger (eeglogger.m)**
+
+* Make sure your Emotiv Control Panel is open.
+* Plug in the USB Bluetooth and switch on the Emotiv EEG Headset.
+* Open Matlab, add eeglogger.m, *.dll and *.h files to the path.
+* Open eeglogger.m file and run it.
+* you should get the following
+```
+EDK library loaded
+
+nf = 
+
+    'EE_CheckSecurityCode'    'EE_GetSecurityCode'
+
+
+w =
+
+     ''
+
+
+
+sampFreqOut =
+
+         128
+
+Warning: The following error was caught while executing 'EmotivEEG' class destructor:
+Method 'delete' is not defined for class 'EmotivEEG' or is removed from MATLAB's search path. 
+
+ans =
+
+     0
+```
+* And these as your out puts
+http://gollahalli.com/EmoMat/eeglogger.png
+
