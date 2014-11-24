@@ -3,6 +3,8 @@ EmoMat
 
 Emotiv connector for Matlab
 
+Copyright @ May 2010 The Johns Hopkins University Applied Physics Laboratory (JHU/APL).
+
 You would need the following files to run these files:
 
 1. edk.dll
