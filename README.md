@@ -4,6 +4,7 @@ EmoMat
 Emotiv connector for Matlab
 
 You would need the following files to run these files:
+
 1. edk.dll
 2. edk.h
 3. edk_utils.dll
