@@ -148,3 +148,6 @@ ans =
 * And these as your out puts
 http://gollahalli.com/EmoMat/eeglogger.png
 
+
+**Emotiv EEG (Other Ways/EmotivEEG.m)** (I prefer using this)
+
