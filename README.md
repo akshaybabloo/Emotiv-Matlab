@@ -20,8 +20,8 @@ All these are available with Emotiv SDK.
 Go to [Emotiv](http://www.emotiv.com) website for more information.
 
 
-How to use?
-===========
+Installing `mex` compiler?
+==========================
 
 1. Open Matlab (this has been tested on R2013a).
 2. Add the folder and all the DLL and .h files to the path.
