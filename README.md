@@ -151,3 +151,91 @@ ans =
 
 **Emotiv EEG (Other Ways/EmotivEEG.m)** <= I prefer using this
 
+* Make sure you have opened EmotivEEG.m, ExampleUsage.m added all *.dll & *.h files to the path.
+* Open Emotiv Control Panel and connect your Emotiv headset.
+* I have commented a piece of code in that, I will tell you about this as we go further.
+```
+% for i = 1:20
+%     data_local = h.data;
+%     data_local = (data_local+1)*10;
+%     plot(data_local);
+%     pause(0.5);
+% end
+```
+* Now go to ExampleUsage.m file and run it (This will record your brain for the given seconds and show you the plot of it).
+* you should get this in the Matlab
+```
+>>ExampleUsage
+Warning: The function 'EE_GetSecurityCode' was not found in the library 
+> In loadlibrary at 403
+  In EmotivEEG>EmotivEEG.EmotivEEG at 73
+  In ExampleUsage at 2 
+Warning: The function 'EE_CheckSecurityCode' was not found in the library 
+> In loadlibrary at 403
+  In EmotivEEG>EmotivEEG.EmotivEEG at 73
+  In ExampleUsage at 2 
+EDK library loaded
+Successfully connected to Emotiv Systems-5
+Warning: You should not run the timer and record simultaneously. Stopping the timer 
+> In EmotivEEG>EmotivEEG.Record at 160
+  In ExampleUsage at 13 
+Recording... recieved  ,42 samples so far in0.004 secs. Still waiting for 1240 of 1280 samples
+Recording... recieved  ,86 samples so far in0.356 secs. Still waiting for 1196 of 1280 samples
+Recording... recieved  ,134 samples so far in0.72 secs. Still waiting for 1148 of 1280 samples
+Recording... recieved  ,178 samples so far in1.077 secs. Still waiting for 1104 of 1280 samples
+Recording... recieved  ,222 samples so far in1.436 secs. Still waiting for 1060 of 1280 samples
+Recording... recieved  ,270 samples so far in1.796 secs. Still waiting for 1012 of 1280 samples
+Recording... recieved  ,318 samples so far in2.156 secs. Still waiting for 964 of 1280 samples
+Recording... recieved  ,362 samples so far in2.514 secs. Still waiting for 920 of 1280 samples
+Recording... recieved  ,410 samples so far in2.873 secs. Still waiting for 872 of 1280 samples
+Recording... recieved  ,454 samples so far in3.236 secs. Still waiting for 828 of 1280 samples
+Recording... recieved  ,498 samples so far in3.592 secs. Still waiting for 784 of 1280 samples
+Recording... recieved  ,546 samples so far in3.954 secs. Still waiting for 736 of 1280 samples
+Recording... recieved  ,590 samples so far in4.308 secs. Still waiting for 692 of 1280 samples
+Recording... recieved  ,638 samples so far in4.67 secs. Still waiting for 644 of 1280 samples
+Recording... recieved  ,682 samples so far in5.032 secs. Still waiting for 600 of 1280 samples
+Recording... recieved  ,730 samples so far in5.391 secs. Still waiting for 552 of 1280 samples
+Recording... recieved  ,774 samples so far in5.746 secs. Still waiting for 508 of 1280 samples
+Recording... recieved  ,822 samples so far in6.11 secs. Still waiting for 460 of 1280 samples
+Recording... recieved  ,866 samples so far in6.466 secs. Still waiting for 416 of 1280 samples
+Recording... recieved  ,914 samples so far in6.825 secs. Still waiting for 368 of 1280 samples
+Recording... recieved  ,962 samples so far in7.186 secs. Still waiting for 320 of 1280 samples
+Recording... recieved  ,1006 samples so far in7.544 secs. Still waiting for 276 of 1280 samples
+Recording... recieved  ,1054 samples so far in7.905 secs. Still waiting for 228 of 1280 samples
+Recording... recieved  ,1098 samples so far in8.266 secs. Still waiting for 184 of 1280 samples
+Recording... recieved  ,1146 samples so far in8.627 secs. Still waiting for 136 of 1280 samples
+Recording... recieved  ,1190 samples so far in8.981 secs. Still waiting for 92 of 1280 samples
+Recording... recieved  ,1238 samples so far in9.344 secs. Still waiting for 44 of 1280 samples
+Recording... recieved  ,1282 samples so far in9.699 secs. Still waiting for 0 of 1280 samples
+Recording complete. Saved to EEGlog20141125T140701.mat
+Successfully disconnected from Emotiv Systems-5
+```
+* And
+![alt tag](http://gollahalli.com/EmoMat/emotiveeg1.png)
+* Now comment this
+```
+% lastfilename = h.Record(10);
+% h.LoadRecordedData(lastfilename)
+% data_local = h.data;
+% plot(data_local);
+```
+* And uncomment this
+```
+for i = 1:5
+    data_local = h.data;
+    data_local = (data_local+1)*10;
+    plot(data_local);
+    pause(0.5);
+end
+```
+* Save this file (ExampleUsage.m) and run it.
+* You should get the following
+```
+>>ExampleUsage
+
+EDK library loaded
+Successfully connected to Emotiv Systems-5
+Successfully disconnected from Emotiv Systems-5
+```
+* And multiple updated plots which should be something like this
+![alt tag](http://gollahalli.com/EmoMat/emotiveeg2.png)
