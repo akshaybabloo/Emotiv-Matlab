@@ -157,7 +157,7 @@ classdef EmotivEEG < handle
 % will save this to file (as .mat)
         function recordFilename = Record(self,recordSeconds_local)
             if ~isempty(self.runAsyncTimer) && strcmp(self.runAsyncTimer.Running,'on')
-                warning('You should not run the timer and record simultaneously. Stopping the timmer') %#ok<WNTAG>
+                warning('You should not run the timer and record simultaneously. Stopping the timer') %#ok<WNTAG>
                 self.Stop()
             end
             
