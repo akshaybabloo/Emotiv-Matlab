@@ -17,7 +17,7 @@ You would need the following files to run these files:
 4. edkErrorCode.h
 5. EmoStateDLL.h
 
-Other software/OS needed
+Other software/OS needed:
 
 1. Emotiv SDKLite or Emotiv Research SDK
 2. Windows Desktop
