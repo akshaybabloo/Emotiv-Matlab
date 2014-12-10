@@ -1,6 +1,8 @@
 EmoMat
 ======
 
+**Please note that this only works on 32-bit version of Matlab**
+
 Emotiv connector for Matlab
 
 eeglogger.m -> Copyright (c) May 2010 The Johns Hopkins University Applied Physics Laboratory (JHU/APL).
