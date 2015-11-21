@@ -147,7 +147,7 @@ your_folder_name
 +-- edk_utils.dll
 +-- edkErrorCode.h
 `-- EmoStateDLL.h
-<pre>
+</pre>
 
 * Make sure your Emotiv Control Panel is open.
 * Plug in the USB Bluetooth and switch on the Emotiv EEG Headset.
@@ -193,7 +193,7 @@ your_folder_name
 +-- edk_utils.dll
 +-- edkErrorCode.h
 `-- EmoStateDLL.h
-<pre>
+</pre>
 
 * Make sure you have opened `EmotivEEG.m`, `ExampleUsage.m` added all `*.dll` & `*.h` files in the same folder.
 * Open Emotiv Control Panel and connect your Emotiv headset.
