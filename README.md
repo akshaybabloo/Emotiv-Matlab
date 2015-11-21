@@ -181,7 +181,7 @@ ans =
      0
 ```
 
-### 4.3 Using `one` (Emotiv EEG)
+### 4.2 Using `two` (Emotiv EEG)
 
 <pre>
 your_folder_name
