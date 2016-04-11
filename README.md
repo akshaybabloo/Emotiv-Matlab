@@ -294,7 +294,7 @@ Successfully disconnected from Emotiv Systems-5
 
 ## 5 Troubleshooting
 
-1. Have you tried using their example files and running it? You should try this.
-2. Try downgrading your Matlab to 2013b or 2014b (if using 2015, I have tested the code on this and works fine)
-3. Make sure you have installed the `mex` installer and have the `visual studio` before doing it.
-4. I have tried this on Windows 7, may be that could be an issue.
+* Have you tried using their example files and running it? You should try this.
+* Try downgrading your Matlab to 2013b or 2014b (if using 2015, I have tested the code on this and works fine)
+* Make sure you have installed the `mex` installer and have the `visual studio` before doing it.
+* I have tried this on Windows 7, may be that could be an issue.
