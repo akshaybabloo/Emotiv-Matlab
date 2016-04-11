@@ -8,6 +8,16 @@ There are two ways to get the data from your Emotiv EPOC device
 
 [Two](https://github.com/akshaybabloo/Emotiv-Matlab/tree/master/two) -> Copyright (c) 2012, Gavin
 
+**Table of Contents**
+
+- [1 Structure](#1-structure)
+- [2 Requirements](#2-requirements)
+- [3 Installing `mex` compiler](#3-installing-mex-compiler)
+- [4 Using `.m` files](#4-using-m-files)
+	- [4.1 Using `one` (EEG Logger)](#41-using-one-eeg-logger)
+	- [4.2 Using `two` (Emotiv EEG)](#42-using-two-emotiv-eeg)
+- [5 Troubleshooting](#5-troubleshooting)
+
 ## 1 Structure
 
 <pre>
@@ -281,3 +291,10 @@ Successfully connected to Emotiv Systems-5
 Successfully disconnected from Emotiv Systems-5
 ```
 * you can also see that a plot is updated dynamically.
+
+## 5 Troubleshooting
+
+1. Have you tried using their example files and running it? You should try this.
+2. Try downgrading your Matlab to 2013b or 2014b (if using 2015, I have tested the code on this and works fine)
+3. Make sure you have installed the `mex` installer and have the `visual studio` before doing it.
+4. I have tried this on Windows 7, may be that could be an issue.
