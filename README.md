@@ -1,6 +1,6 @@
 # Emotiv Matlab
 
-> Please note that this repository is no longer maintained, due to the changes in the Emotiv SDK version and the price for testing on newer versions of SDK.
+> Please note that this repository is no longer maintained, due to the changes in the Emotiv SDK version and the price for testing on newer versions of SDK. PR's are accepted.
 
 > Note 1: Please note that this only works on 32-bit version of Matlab
 
