@@ -1,5 +1,7 @@
 # Emotiv Matlab
 
+> Please note that this repository is no longer maintained, due to the changes in the Emotiv SDK version and the price for testing on newer versions of SDK.
+
 > Note 1: Please note that this only works on 32-bit version of Matlab
 
 There are two ways to get the data from your Emotiv EPOC device
